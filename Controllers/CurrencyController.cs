@@ -18,7 +18,7 @@ namespace InventoryAPI.Controllers
         public const string ErrorMessageKey = "ErrorMessage";
         private readonly BlobServiceClient _blobServiceClient;
         private readonly BlobContainerClient _containerClient;
-        string connectionstring = "";
+        string connectionstring = "DefaultEndpointsProtocol=https;AccountName=vijicapstone;AccountKey=h8yDeMgMzV2UK41IAUZKUAcaykJqB/JhYq8GgxMNgPxa1+Vm67qmwMCX2S0XlZeL3ICVZOms81ku+ASt+5FOdw==;EndpointSuffix=core.windows.net";
         public CurrencyController()
         {
 
